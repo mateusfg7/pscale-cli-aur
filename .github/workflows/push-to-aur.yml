@@ -17,7 +17,7 @@ jobs:
           fetch-depth: '0'
 
       - name: Publish AUR package
-        uses: KSXGitHub/github-actions-deploy-aur
+        uses: KSXGitHub/github-actions-deploy-aur@v2.6.0
         with:
           pkgname: pscale
           pkgbuild: ./PKGBUILD
